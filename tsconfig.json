@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "sourceMap": true,
+        "outDir": "build",
+        "allowSyntheticDefaultImports": true,
+        "typeRoots": [
+            "../node_modules/@types"
+        ],
+        "types": [
+            "node",
+            "express"
+        ],
+    },
+    "include": [
+        "./bin/*.ts",
+        "./src/*.ts",
+        "./src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "compileOnSave": true,
+}
